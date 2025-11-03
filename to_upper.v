@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
 
-// Project 1: toUpper Combinational Circuit
 module to_upper (
     input  [7:0] A_in,
     output [7:0] A_out
@@ -38,4 +37,4 @@ module to_upper (
     or #(10) OR_SOP (A_out[5], P1, P2, P3, P4, P5);
 
 
-endmodule // to_upper
+endmodule
